@@ -6,7 +6,7 @@ app.config['SECRET_KEY'] = "secretkey123"
 
 @app.route("/")
 def home():
-    return jsonify({'Message': "Nne"})
+    return jsonify({'Message': "None"})
 
 
 if __name__ == "__main__":

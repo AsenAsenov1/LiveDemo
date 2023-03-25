@@ -9,10 +9,6 @@ def home():
     return jsonify({'Message': "None"})
 
 
-@app.route("/main")
-def hello():
-    return "<p>Hello, DXC!</p>"
-
 
 if __name__ == "__main__":
     app.run()
